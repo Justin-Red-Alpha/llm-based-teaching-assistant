@@ -1,0 +1,7 @@
+question_id,answer,correctness,score,explanation
+1.,"The first RFC for ICMP was RFC 777, it is currently obsolete.",correct,1,The user correctly identified RFC 777 as the first RFC for ICMP and accurately stated that it is currently obsolete.
+2.,The current RFC number of ICMP is RFC 792.,correct,1,"The user's answer matches the correct answer, stating that the current RFC number of ICMP is RFC 792."
+3.,"It is updated by RFC 950, RFC 4884, RFC 6633, and RFC 6918.",correct,1,"The user's answer correctly lists all the RFCs that update the mentioned RFC, matching the correct answer."
+4.,16 bit.,correct,1,The user's answer '16 bit' is equivalent to the correct answer '16 bits'.
+5.,4,correct,1,The user's answer '4' is correct as it matches the correct type number for a Source Quench Message.
+6.,"No. As stated in Section 3 of RFC 6633, a host must not send ICMP Source Quench messages.",correct,1,"The user's answer correctly states that a host must not send ICMP Source Quench messages, as per Section 3 of RFC 6633."

@@ -1,0 +1,11 @@
+1) How many packets were sent to 192.168.1.3?
+ 149
+
+2) What frames are ARP frames? Provide the frame numbers.
+87, 134, 135
+
+3) How many packets have we captured overall?
+292
+
+4) How many of these packets are TCP (Transmission Control Protocol) packets?
+234

@@ -1,0 +1,34 @@
+Answer all questions, and remember to give in-depth answers:
+1) Take a look at the attached capture file.
+Which protocol can you see there?
+SSL/TLS
+
+Can you identify the host name of the target server?
+www.snakeoil.dom
+It's found in packet #6 in one of the entries in the certificate that the server returns to the client.
+
+2) It seems like you need to add a secret ingredient.
+Download the other attached file (secret.file), and open it with the document editor of
+your choice.
+Can you guess what this file is?
+Private key file used to decrypt the traffic. It must match the server certificate's public key to work.
+
+
+3) Add the secret key file to your Wireshark’s key file store.
+If you don’t know how to do it, look at Wireshark’s Wiki page on SSL and RSA keys
+Now, reload the capture file.
+Steps to do it:
+1. Edit -> Preferences
+2. Select "RSA Keys" from the sidebar menu.
+3. Click on "Add new keyfile...", and select the secret file downloaded.
+4. Reload Wireshark.
+
+Can you see the real traffic now?
+Yes, I see the clean HTTP.
+
+Where did the user try to go, and what did they try to do?
+User tried to go to https://localhost/, and received a default Apache page. That page loaded some resources like small images. Some were found, and some weren't.
+
+Then, he tried to go to /test, and got redirecte to /test/. There, a blank page appeared with the string "sdfsdfsdfsdf".
+He went to /test2/, and got a blank index of directory page.
+Finally, he went to /test3/ and encountered a 404 error.

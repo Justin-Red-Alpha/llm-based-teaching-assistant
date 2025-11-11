@@ -1,0 +1,7 @@
+grade: 83
+feedback:
+6) May a host send ICMP Source Quench Messages? Provide a quote supporting your answer.
+
+In RFC6633 this was changed: "A host MUST NOT send ICMP Source Quench Messages, if a source quench message is received, the IP layer MAY silently discard it."
+
+Source: "tools.ietf.org/html/rfc6633"

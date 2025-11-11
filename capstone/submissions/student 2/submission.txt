@@ -1,0 +1,6 @@
+1. The first RFC for ICMP was RFC 777, it is currently obsolete.
+2. The current RFC number of ICMP is RFC 792.
+3. It is updated by RFC 950, RFC 4884, RFC 6633, and RFC 6918.
+4. 16 bit.
+5. 4
+6. No. As stated in Section 3 of RFC 6633, a host must not send ICMP Source Quench messages.  

@@ -1,0 +1,21 @@
+The RFC Index is https://tools.ietf.org/. To look at RFC 777, go to https://tools.ietf.org/html/rfc777.
+
+1) What was the first RFC number for ICMP? What is its current status?
+RFC 777, deprecated by RFC0792
+
+2) What is the current RFC number of ICMP?
+RFC 792
+
+3) What RFCs update the RFC you mentioned in your answer to (2)?
+RFC 950, 4884, 6633, 6918
+
+4) How long is the checksum field in ICMPv4?
+16 bits
+
+5) What is the type of a Source Quench Message?
+Type 4
+
+6) May a host send ICMP Source Quench Messages? Provide a quote supporting your answer.
+Some students may say yes, because this is how it was defined in an early RFC of ICMP. However, in RFC6633 this was changed:
+"A host MUST NOT send ICMP Source Quench Messages, if a source quench message is received, the IP layer MAY silently discard it."
+Source: "tools.ietf.org/html/rfc6633"
