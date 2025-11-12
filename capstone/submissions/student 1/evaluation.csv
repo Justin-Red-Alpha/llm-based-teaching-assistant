@@ -1,9 +1,0 @@
-question_id,answer,correctness,score,explanation
-1.,0777. Status: UNKNOWN.,partially correct,0.5,"The user correctly identified the RFC number as 777, but the status is incorrect. The correct status is 'deprecated by RFC0792'."
-2.,0792.,correct,1,"The user provided the correct RFC number for ICMP, which is 792. The leading zero does not affect the correctness of the answer."
-3.,"Updated by RFC0950, RFC4884, RFC6633, RFC6918",correct,1,"The user provided the correct RFC numbers, albeit with a different format. The content is accurate."
-4.,16 bit,correct,1,"The user's answer '16 bit' is equivalent to '16 bits', which is the correct length of the checksum field in ICMPv4."
-5.,Type 4,correct,1,The user's answer is correct because a Source Quench Message is indeed Type 4.
-6.,"Yes. ""The gateway or host may send the source quench message when it
-      approaches its capacity limit rather than waiting until the
-      capacity is exceeded.""",partially correct,0.5,"The user correctly identifies that hosts could send ICMP Source Quench Messages according to an early RFC. However, they did not mention the update in RFC6633, which states that hosts must not send these messages."

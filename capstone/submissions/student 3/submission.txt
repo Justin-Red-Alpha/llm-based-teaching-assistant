@@ -1,6 +1,0 @@
-1. RFC 0777
-2. RFC 0792
-3. RFC0950, RFC4884, RFC6633, RFC6918
-4. 16 bit
-5. 4
-6. No, "This document formally deprecates the use of ICMP Source Quench messages by transport protocols, formally updating RFC 792, RFC 1122, and RFC 1812."

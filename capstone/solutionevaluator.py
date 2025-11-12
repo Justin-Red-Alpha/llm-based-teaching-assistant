@@ -1,9 +1,9 @@
-from openai import OpenAI
 import json
 import os
 import re
 import csv
 import studentsolutionformatter
+from openai_client import client
 
 # add key here as variable name 'client'
 # client =

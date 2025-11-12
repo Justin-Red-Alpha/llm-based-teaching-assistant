@@ -1,8 +1,0 @@
-1. 0777. Status: UNKNOWN.
-2. 0792. 
-3. Updated by RFC0950, RFC4884, RFC6633, RFC6918
-4. 16 bit
-5. Type 4
-6. Yes. "The gateway or host may send the source quench message when it
-      approaches its capacity limit rather than waiting until the
-      capacity is exceeded."
