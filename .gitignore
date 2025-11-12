@@ -1,3 +1,4 @@
 capstone/api_key.md
 capstone/__pycache__/
 capstone/submissions/
+capstone/api_key.env
