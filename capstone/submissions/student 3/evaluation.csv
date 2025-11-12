@@ -1,7 +1,0 @@
-question_id,answer,correctness,score,explanation
-1.,RFC 0777,partially correct,0.5,"The user correctly identified the first RFC number for ICMP as RFC 777, but did not provide information about its current status."
-2.,RFC 0792,correct,1,The user's answer 'RFC 0792' is equivalent to 'RFC 792' as leading zeros do not affect the numerical value.
-3.,"RFC0950, RFC4884, RFC6633, RFC6918",correct,1,"The user provided the correct RFC numbers, albeit with a different format. The content is accurate."
-4.,16 bit,correct,1,The user's answer '16 bit' is equivalent to the correct answer '16 bits'.
-5.,4,correct,1,The user's answer '4' is correct as it matches the correct type number for a Source Quench Message.
-6.,"No, ""This document formally deprecates the use of ICMP Source Quench messages by transport protocols, formally updating RFC 792, RFC 1122, and RFC 1812.""",partially correct,0.5,"The user correctly states that ICMP Source Quench messages are deprecated, but the quote provided does not directly address whether a host may send these messages. The correct answer should include the specific prohibition from RFC6633."
